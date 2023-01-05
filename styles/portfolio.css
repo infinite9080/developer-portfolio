@@ -82,16 +82,13 @@ nav li {
   margin-bottom: 30px;
 }
 /* main section */
-main {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 /* about section styles */
 .about {
   background-color: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .section-tittle {
   text-align: center;
@@ -128,6 +125,11 @@ main {
 
 /* What i do styles */
 
+.what-i-do {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .skills-container {
   display: flex;
   gap: 24px;
@@ -151,6 +153,11 @@ main {
 }
 
 /* resume styles  */
+
+.resume {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 .resume-content {
   display: flex;
@@ -188,9 +195,10 @@ main {
 /* contact styles */
 .contact {
   display: flex;
-  gap: 100px;
+  justify-content: space-around;
   background: #fff8f3;
-  padding: 130px 200px;
+  /* background-color: orange; */
+  padding: 12000px 200px;
 }
 .contact .section-tittle {
   text-align: left;
@@ -216,4 +224,13 @@ input {
 
 .contact .section-description {
   text-align: left;
+}
+
+.container-fix {
+  display: flex;
+  gap: 100px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
